@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-blocks {
+  display: block;
+  width: 1440px;
+  margin: 0;
+  padding: 0 0 0 55px;
+}
+
+.first-block {
+  display: block;
+  height: 800px;
+  background-color: #4A2B33;
+}
+
+.second-block {
+  height: 715px;
+  padding: 220px 0 0 0;
+}
+
+.third-block {
+  height: 1277px;
+  background-color: #E9E9E3;
+  padding: 120px 0 0 55px;
+}
+
+.fourth-block {
+  height: 475px;
+  background-color: #AA9E54;
+  vertical-align: top;
+}
+
+.fifth-block {
+  height: 912px;
+  background-color: #fff;
+}
+
+.sixth-block {
+  height: 460px;
+  background-color: #4A2B33;
+  color: #D27487
+}
+
+.foot-block {
+  height: 190px;
+  padding: 52px 0 0 0;
+}
+
+.header {
+  display: block;
+  width: 1330px;
+  height: 120px;
+  margin: 0;
+  padding: 40px 0;
+  font-size: 0;
+}
+
+.header-align {
+  vertical-align: middle;
+  padding: 0;
+}
+
+.header-page-links {
+  display: inline-block;
+  width: 443px;
+  height: 32px;
+  padding: 10px 0 0 0;
+}
+
+.header-page-links-a {
+  color: #D27487;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.head-title {
+  display: inline-block;
+  width: 443px;
+  height: 32px;
+  text-align: center;
+}
+
+.social-links {
+  display: inline-block;
+  width: 443px;
+  height: 32px;
+  padding: 8px 0 0 0;
+}
+
+.social-links-flex {
+  display: flex;
+  justify-content: end;
+}
+
+.social-links-a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.about {
+  width: 900px;
+  height: 275px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-text {
+  color: #222;
+}
+
+.text {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.h4-head {
+  font-size: 17px;
+  font-family: 'Azeret Mono', monospace;
+}
+
+
+.menu {
+  width: 560px;
+  height: 1040px;
+  margin: 0;
+  display: inline-block;
+  margin: 0 105px 0 0;
+  vertical-align: top;
+}
+
+.menu-intro {
+  color: #6F6F64;
+  margin: 0 0 63px 0;
+}
+
+
+.menu-button {
+  width: 530px;
+  height: 58px;
+  margin: 0 0 12px 0;
+  padding: 0;
+  color: #6F6F64;
+  font-size: 15px;
+  line-height: 24px;
+  cursor: pointer;
+  border: 3px solid #6F6F64;
+}
+
+.menu-button:hover {
+  color: #FFFFFF;
+  background-color: #6F6F64;
+}
+
+.menu-items-img {
+  display: inline-block;
+}
+
+.general-info {
+  width: 1400px;
+  padding: 120px 0 0 0;
+}
+
+.general-info-cell {
+  display: inline-block;
+  margin: 0 80px 0 0;
+  width: 390px;
+  height: 233px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.general-info-cell:last-child {
+  margin: 0;
+}
+
+.general-info-cell-week {
+  margin: 0 0 35px 0;
+}
+
+.gen-inf-item {
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.examples-images {
+  padding: 150px 0 0 0;
+}
+
+.example-img {
+  display: inline-block;
+  width: 645px;
+  height: 640px;
+  vertical-align: top;
+}
+
+.example-img>img {
+  box-shadow: 0 3px 3px grey;
+}
+
+.img-1-2 {
+  margin: 0 40px 0 0;
+}
+
+.exam-img-1 {
+  margin: 0 0 40px 0;
+}
+
+.cafe-achievements {
+  padding: 120px 0 0 0;
+}
+
+.awards {
+  display: inline-block;
+  width: 413px;
+  height: 125px;
+  margin: 0 267px 0 0;
+  font-family: 'Azeret Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 62px;
+  letter-spacing: 1px;
+  vertical-align: top;
+}
+
+.award-text {
+  display: inline-block;
+  width: 595px;
+  height: 190px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  vertical-align: top;
+}
+
+.foot-links {
+  width: 650px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 0 0 37px;
+}
+
+.foot-links-a {
+  margin: 0 32px 0 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1f1f1f;
+}
+
+.foot-links-a:nth-child(7) {
+  margin: 0;
+}
+
+.foot-links-a:last-child {
+  margin: 0;
+}
+
+.add-info {
+  margin: 0 auto;
+  width: 433px;
+  height: 30px;
+  text-align: center;
+  color: #696969;
+}
+
+.add-info-p {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0 16px 0 0;
+}
